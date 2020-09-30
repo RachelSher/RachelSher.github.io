@@ -39,5 +39,6 @@ nav {
 :any-link {text-decoration: none;
   color: #333;
 }
-:any-link a:hover {text-decoration: rgb(255, 221, 110);
+:any-link:hover {text-decoration-line: none;
+  color: rgb(255, 221, 110);
 }

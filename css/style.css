@@ -7,7 +7,6 @@ body {
   font-weight: 100;
   color: #333;
 }
-
 h1,
 h2,
 h3 {
@@ -36,4 +35,9 @@ nav {
   background-color: rgb(255, 221, 110);
   padding: 10px;
   margin-left: -12px;
+}
+:any-link {text-decoration: none;
+  color: #333;
+}
+:any-link a:hover {text-decoration: rgb(255, 221, 110);
 }

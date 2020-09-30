@@ -28,8 +28,7 @@ nav a {text-decoration: none;
   padding-right: 25px;
   font-size: 16px;
 }
-nav a:hover {text-decoration: none;
-  color: rgb(255, 235, 198);
+nav a:hover {text-decoration-color: rgb(255, 235, 198);
 }
 nav {
   background-color: rgb(255, 221, 110);
@@ -40,5 +39,5 @@ nav {
   color: #333;
 }
 :any-link:hover {text-decoration-line: none;
-  color: rgb(255, 221, 110);
+  color: rgb(255, 235, 198);
 }

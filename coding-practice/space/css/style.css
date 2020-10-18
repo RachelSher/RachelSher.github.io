@@ -1,0 +1,14 @@
+
+body {
+margin: 0px;
+}
+
+div {
+    background-color: thistle;
+    height: 100vh;
+}
+header {
+    width: 70vw;
+    margin: auto;
+    padding-top: 60px;
+}

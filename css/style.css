@@ -1,18 +1,39 @@
 /* -------------------------------------- *
 General Styles
 * --------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
-  font-family: "Dosis", "Dosis ExtraLight";
-  font-size: 18px;
-  font-weight: 100;
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
   color: #333;
 }
-h1,
-h2,
+header {
+  background-image: url("../images/banners/mustardflowers.jpeg");
+  background-size: cover;
+  height: 100px;
+  background-position-y: 70%;
+  
+}
+h1 {
+  font-size: 36px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: rgb(252, 233, 170)
+}
+h2 {
+  font-family: "Karla", sans-serif;
+  font-size: 16.5px;
+  font-weight: 700;
+  color: #333;
+}
 h3 {
-  font-size: 32px;
-  font-family: "Dosis", "Dosis ExtraLight";
-  font-weight: 100;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  text-decoration: underline;
 }
 main,
 header h1,
@@ -23,21 +44,37 @@ nav div {
 header {
   padding: 28px 0;
 }
-nav a {text-decoration: none;
+nav a {
+  text-decoration: none;
   color: #333;
   padding-right: 25px;
-  font-size: 16px;
+  font-size: 19px;
 }
-nav a:hover {text-decoration-color: rgb(255, 235, 198);
+nav a:hover {
+  text-decoration-color: rgb(252, 233, 170);
 }
 nav {
   background-color: rgb(255, 221, 110);
   padding: 10px;
-  margin-left: -12px;
 }
-:any-link {text-decoration: none;
+:any-link {
+  text-decoration: none;
   color: #333;
 }
-:any-link:hover {text-decoration-line: none;
-  color: rgb(255, 235, 198);
+:any-link:hover {
+  text-decoration-line: none;
+  color: rgb(252, 233, 170);
+}
+.catpics {
+  height: 500px;
+}
+.two-col {
+  display: flex;
+}
+.two-col article {
+  flex: 1;
+  padding: 10px;
+}
+.two-col .rightbuff {
+  padding-right: 40%;
 }

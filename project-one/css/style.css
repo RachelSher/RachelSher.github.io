@@ -12,7 +12,7 @@ body {
 main {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     border: 4px solid blue;
     background-color: rgb(255, 241, 225)
   }
@@ -32,38 +32,26 @@ main {
 .right .bottom {
   flex: 5%;
   flex-direction: column;
-  text-align: right;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 30px
 }
 .right .middle {
   flex: 90%;
-  padding-left: 5%;
+  padding-right: 16%;
 }
-/* .top {
-  flex-direction: row;
-  flex: 5%;
-  text-align: right;
-  padding-left: 5%;
-}
-.middle {
-  flex: 90%;
-  flex-direction: row;
-}
-.bottom {
-  flex: 5%;
-  flex-direction: row;
-  text-align: right;
-} */
 section {
   display: flex;
   /* width: 70vw; */
 }
 section .img-box {
     flex: 70%;
-    height: 90px;
+    height: 98px;
     overflow: hidden;
   }
+section .img-box-expanded {
+    flex: 70%;
+    height: 550px;
+    overflow: hidden;
+}
 img {
   width: 100%;
 }
@@ -72,11 +60,22 @@ section .bigger {
   }
 section .content {
     flex: 30%;
-    padding: 40px;
+    padding: 30px;
   }
+.content {
+  padding: 30px;
+}
+.content-2 {
+  padding: 30px;
+  padding-top: 10vh;
+}
+.content-6 {
+  padding: 30px;
+  padding-top: 60vh;
+}
 .content-inner {
   flex: 30%;
-  padding: 40px;
+  padding: 30px;
 }
 .hide {
     display: none;
@@ -87,19 +86,18 @@ h1 {font-family: "DM Mono", monospace;
     font-size: 13px;
     font-weight: 500;
     color: rgb(29, 29, 29);
-    text-align: right;
 }
 
 h2 {font-family: "DM Mono", monospace;
     font-size: 12px;
     font-weight: 500;
     color: rgb(29, 29, 29);
-    text-align: right;
 }
 p {font-family: "DM Mono", monospace;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 400;
     color: rgb(29, 29, 29);
+    margin: 0;
 }
 :any-link {
     text-decoration: none;

@@ -3,24 +3,27 @@ General Styles
 * --------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+body { margin: 0;}
+* {box-sizing: border-box;}
+
 body {
   font-family: "Karla", sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #333;
+  padding-bottom: 5%;
 }
 header {
-  background-image: url("../images/banners/mustardflowers.jpeg");
+  background-image: url("../images/banners/gradient.png");
   background-size: cover;
-  height: 100px;
-  background-position-y: 70%;
-  
+  height: 112px;
+  background-position-y: 100%;
 }
 h1 {
   font-size: 36px;
   font-family: "Karla", sans-serif;
   font-weight: 700;
-  color: rgb(252, 233, 170)
+  color: rgb(255, 228, 140)
 }
 h2 {
   font-family: "Karla", sans-serif;
@@ -35,6 +38,21 @@ h3 {
   color: #333;
   text-decoration: underline;
 }
+p {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #333;
+  max-width: 75%;
+  line-height: 20px;
+}
+li {
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #333;
+}
 main,
 header h1,
 nav div {
@@ -42,19 +60,20 @@ nav div {
   margin: auto;
 }
 header {
-  padding: 28px 0;
+  padding: 37px 0;
 }
 nav a {
   text-decoration: none;
+  font-size: 16px;
   color: #333;
   padding-right: 25px;
-  font-size: 19px;
+  margin-left: -8px;
 }
 nav a:hover {
   text-decoration-color: rgb(252, 233, 170);
 }
 nav {
-  background-color: rgb(255, 221, 110);
+  background-color: #ffdf88;
   padding: 10px;
 }
 :any-link {

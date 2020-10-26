@@ -84,8 +84,15 @@ nav {
   text-decoration-line: none;
   color: rgb(252, 233, 170);
 }
+.homecatpic {
+  height: 500px;
+  padding: 5px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
 .catpics {
   height: 500px;
+  padding: 5px;
 }
 .two-col {
   display: flex;
@@ -96,4 +103,25 @@ nav {
 }
 .two-col .rightbuff {
   padding-right: 40%;
+}
+fieldset {
+  width: 300px;
+  border: 4px double #ffdf88;
+  border-radius: 6px;
+  padding: 20px;
+  margin-top: 5%;
+}
+legend {
+  background-color: rgb(255, 249, 228);
+  border: 3px double #ffdf88;
+  border-radius: 6px;
+  padding: 8px;
+  text-transform: uppercase;
+}
+textarea {
+  font-family: "Karla", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #333;
+  padding: 7.5px;
 }

@@ -7,7 +7,7 @@ body {
     width: 100vw;
   }
   
-  section .img-box {
+  div .page1 {
     flex: 65%;
     height: 200px;
     overflow: hidden;

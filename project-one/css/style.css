@@ -13,20 +13,17 @@ main {
     display: flex;
     width: 100%;
     height: 100%;
-    border: 4px solid blue;
     background-color: rgb(255, 241, 225)
 }
 .left {
   flex: 70%;
   display: flex;
   flex-direction: column;
-  border: 4px solid purple;
 }
 .right {
   flex: 30%;
   display: flex;
   flex-direction: column;
-  border: 4px solid green;
 }
 .right .top {
   flex: 5%;
@@ -39,6 +36,29 @@ main {
 .right .middle {
   flex: 90%;
   padding-right: 16%;
+}
+.full {
+  flex: 100%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.full .top-full {
+  display: flex;
+  flex: 5%;
+  flex-direction: row;
+  padding-left: 72.25%;
+  margin-top: -2px;
+}
+.full .middle-full {
+  flex: 90%;
+  flex-direction: row;
+}
+.full .bottom-full {
+  flex: 5%;
+  padding-left: 73%;
+  flex-direction: row;
 }
 section {
   display: flex;
@@ -55,7 +75,37 @@ section .img-box-expanded {
     overflow: hidden;
 }
 img {
-  width: 100%;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.flex-grid {
+  display: flex;
+}
+.col-l {
+  flex: 60%;
+  padding-left: 20%;
+  padding-right: 22px;
+}
+.col-r {
+  flex: 40%;
+  padding-top: 12%;
+}
+.flex-grid-thirds {
+  display: flex;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.flex-grid-thirds .col {
+  padding: 10px;
+}
+section .large-copy p{
+    padding: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 12px;
+    font-weight: 400;
 }
 .hide {
     display: none;
@@ -69,6 +119,18 @@ h2 {font-family: "DM Mono", monospace;
     font-size: 12px;
     font-weight: 500;
     color: rgb(29, 29, 29);
+}
+h3 {font-family: "DM Mono", monospace;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(29, 29, 29);
+  text-decoration: underline;
+}
+h4 {font-family: "DM Mono", monospace;
+  font-size: 11px;
+  font-weight: 500;
+  color: rgb(29, 29, 29);
+  text-decoration: underline;
 }
 p {font-family: "DM Mono", monospace;
     font-size: 10px;
@@ -91,14 +153,9 @@ section .content {
   flex: 30%;
   padding: 30px;
 }
-/* .content-inner {
-  flex: 30%;
-  padding: 30px;
-} */
 .content {
 padding: 30px;
 }
-
 .content-1 {
     padding: 30px;
   padding-top: 0vh;

@@ -36,7 +36,7 @@ ul {
   padding: 0; 
   list-style: none; 
   display: table;
-  width: 275px;
+  width: 300px;
   text-align: center;
 }
 li { 
@@ -54,7 +54,7 @@ a {
   position: relative;
   font-family: 'Solway', serif;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
 }
 a:after {    
   background: none repeat scroll 0 0 transparent;

@@ -1,0 +1,149 @@
+* {box-sizing: border-box;}
+body { 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-family: 'Solway', serif;
+    font-weight: 300;
+    font-size: 20pt;
+    padding: 5px;
+    text-align: center;
+    color: #171414;
+}
+h3 {
+    font-family: 'Solway', serif;
+    font-weight: 300;
+    font-size: 10pt;
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #171414;
+    line-height: 20pt;
+    text-transform: uppercase;
+}
+p {
+    font-family: 'Solway', serif;
+    font-weight: 300;
+    font-size: 16pt;
+    padding: 5px;
+    text-align: center;
+    color: #171414;
+}
+ul { 
+  margin: 10px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 425px;
+  text-align: center;
+}
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+}
+a {
+  color: #171414;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  padding: 5px 10px;
+  position: relative;
+  font-family: 'Solway', serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: #a12525;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+/* li {	
+    margin-left: 250px;
+	margin-top: 20px;
+    margin-right: 250px;
+} */
+
+.image-grid-lg {
+    width: 100vw;
+    align-content: center;
+}
+img {
+    width: 500px;
+}
+nav {
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+    color: #171414;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    align-items: center;
+}  
+
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+/* V  DESKTOP  V */
+@media screen and (min-width: 768px) {
+    .main-header {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 60px;
+   }
+    .main-content {
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+    .content-box { 
+        flex: 50%;
+        padding: 10px;
+        margin: auto;
+    }
+    img {
+        width: 500px;
+    }
+    nav {
+       
+        color: #171414;
+        width: 100%;
+        padding-top: 160px;
+        margin-right: -10%;
+    }
+    a {
+        font-weight: 800;
+        font-size:20px;
+      }
+    .image-grid-lg {
+        width: 100%;
+        
+    }
+}

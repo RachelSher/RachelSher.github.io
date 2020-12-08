@@ -135,6 +135,7 @@ header {
     .main-header {
         flex-direction: row;
         flex-wrap: nowrap;
+        padding-bottom: 30px;
    }
     .main-content {
         flex-direction: row;

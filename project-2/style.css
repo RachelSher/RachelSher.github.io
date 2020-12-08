@@ -5,16 +5,16 @@ body {
     flex-direction: column;
 }
 h1 {
-    font-family: 'Solway', serif;
-    font-weight: 700;
+    font-family: 'Solway', 'Roboto Slab', serif;
+    font-weight: 500;
     font-size: 16pt;
     text-align: center;
     color: #171414;
     margin: 10pt;
 }
 h2 {
-    font-family: 'Solway', serif;
-    font-weight: 700;
+    font-family: 'Solway', 'Roboto Slab', serif;
+    font-weight: 500;
     font-size: 14px;
     color: #171414;
     line-height: 20pt;
@@ -23,7 +23,7 @@ h2 {
     text-align: center;
 }
 h3 {
-    font-family: 'Solway', serif;
+    font-family: 'Solway', 'Roboto Slab', serif;
     font-weight: 300;
     font-size: 9pt;
     padding: 20px;
@@ -34,7 +34,7 @@ h3 {
     text-transform: uppercase;
 }
 p {
-    font-family: 'Solway', serif;
+    font-family: 'Solway', 'Roboto Slab', serif;
     font-weight: 300;
     font-size: 10pt;
     text-align: center;
@@ -67,7 +67,7 @@ a {
   padding: 2px 10px;
   position: relative;
   font-family: 'Solway', serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
 }
 li.active a{
@@ -133,14 +133,14 @@ header {
 /* V  DESKTOP  V */
 @media screen and (min-width: 768px) {
     .main-header {
-    flex-direction: row;
-    flex-wrap: nowrap;
+        flex-direction: row;
+        flex-wrap: nowrap;
    }
     .main-content {
-      flex-direction: row;
-      flex-wrap: wrap;
-      padding-left: 80px;
-      padding-right: 80px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 80px;
+        padding-right: 80px;
     }
     .content-box { 
         flex: 50%;
@@ -160,8 +160,8 @@ header {
         width: 425px;
     }
     a {
-        font-weight: 800;
-        font-size:20px;
+        font-weight: 500;
+        font-size: 20px;
     }
     .image-grid-lg {
         width: 100%;   
@@ -175,13 +175,13 @@ header {
         width: 40vw
     }
     p {
-        font-size: 12pt;
+        font-size: 10pt;
         padding-bottom: 5px;
         padding-left: 60pt;
         padding-right: 60pt;
     }
     h2 {
-        font-weight: 800;
+        font-weight: 500;
         font-size:20px;
     }
     .content-full {

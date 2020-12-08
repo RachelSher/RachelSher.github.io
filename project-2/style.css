@@ -40,8 +40,8 @@ p {
     text-align: center;
     color: #171414;
     padding-bottom: 20pt;
-    padding-right: 20pt;
-    padding-left: 20pt;
+    padding-right: 12pt;
+    padding-left: 12pt;
     margin: 0;
 }
 p em {
@@ -180,6 +180,7 @@ header {
         padding-bottom: 15px;
         padding-left: 60pt;
         padding-right: 60pt;
+        margin: 0;
     }
     h2 {
         font-weight: 400;

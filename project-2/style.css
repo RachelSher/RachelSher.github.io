@@ -6,7 +6,7 @@ body {
 }
 h1 {
     font-family: 'Solway', 'Roboto Slab', serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16pt;
     text-align: center;
     color: #171414;
@@ -14,7 +14,7 @@ h1 {
 }
 h2 {
     font-family: 'Solway', 'Roboto Slab', serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     color: #171414;
     line-height: 20pt;
@@ -66,8 +66,8 @@ a {
   display: inline-block;
   padding: 2px 10px;
   position: relative;
-  font-family: 'Solway', serif;
-  font-weight: 500;
+  font-family: 'Solway', 'Roboto Slab', serif;
+  font-weight: 400;
   font-size: 14px;
 }
 li.active a{
@@ -160,7 +160,7 @@ header {
         width: 425px;
     }
     a {
-        font-weight: 500;
+        font-weight: 400;
         font-size: 20px;
     }
     .image-grid-lg {
@@ -181,7 +181,7 @@ header {
         padding-right: 60pt;
     }
     h2 {
-        font-weight: 500;
+        font-weight: 400;
         font-size:20px;
     }
     .content-full {
